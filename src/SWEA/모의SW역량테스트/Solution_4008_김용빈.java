@@ -1,4 +1,4 @@
-package SWEA;
+package SWEA.모의SW역량테스트;
 
 import java.io.BufferedReader;
 import java.io.IOException;

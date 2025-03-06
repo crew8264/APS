@@ -1,11 +1,11 @@
-package solutions;
+package SWEA.D4;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Solution_1861_±è¿ëºó {
+public class Solution_1861_ê¹€ìš©ë¹ˆ {
 	static int[] dx = {-1, 1, 0, 0};
 	static int[] dy = {0, 0, -1, 1};
 
@@ -29,7 +29,7 @@ public class Solution_1861_±è¿ëºó {
 					room[i][j] = Integer.parseInt(st.nextToken());
 				}
 			}	
-//				¿©±â±îÁö ÀÔÃâ·Â -----				
+//				ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ -----				
 			
 			max = Integer.MIN_VALUE;
 			minNo = Integer.MAX_VALUE;

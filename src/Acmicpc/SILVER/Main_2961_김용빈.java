@@ -1,11 +1,11 @@
-package Acmicpc;
+package Acmicpc.SILVER;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Solution_2961_김용빈 {
+public class Main_2961_김용빈 {
 	static int N, MIN = Integer.MAX_VALUE; // 재료의 개수 N, 쓴-신 최솟값 MIN
 	static int[][] gredient; // 입력받을 재료 - 쓴 : 단
 	public static void main(String[] args) throws IOException{
