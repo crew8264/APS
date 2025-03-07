@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 package SWEA.D4;
+=======
+>>>>>>> 84b878b625962b4bf986cdf7883aac2fd53744ac
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,7 +9,11 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+<<<<<<< HEAD
 public class Solution_1868_김용빈 {
+=======
+public class Solution {
+>>>>>>> 84b878b625962b4bf986cdf7883aac2fd53744ac
 	static int[] dx = {-1, -1, -1, 	 0, 0, 	 1, 1, 1}; // 팔방 탐색 돌릴 델타 좌표
 	static int[] dy = {-1, 	0, 	1, 	-1, 1, 	-1, 0, 1};
 	
@@ -36,9 +43,12 @@ public class Solution_1868_김용빈 {
 				}
 			}
 			
+<<<<<<< HEAD
 			for(int i=0; i<N; i++) {
 				System.out.println(Arrays.toString(mine[i]));
 			}
+=======
+>>>>>>> 84b878b625962b4bf986cdf7883aac2fd53744ac
 //			여기까지 입출력 ---------------------
 			
 			
@@ -59,6 +69,7 @@ public class Solution_1868_김용빈 {
 					}
 				}
 			}
+<<<<<<< HEAD
 
 			for(int i=0; i<N; i++) {
 				System.out.println(Arrays.toString(visited[i]));
@@ -66,6 +77,10 @@ public class Solution_1868_김용빈 {
 			
 			
 			System.out.println("ans: "+ans);
+=======
+			
+			System.out.printf("#%d %d\n", tc, ans);
+>>>>>>> 84b878b625962b4bf986cdf7883aac2fd53744ac
 		}
 	}
 	
@@ -113,4 +128,8 @@ public class Solution_1868_김용빈 {
 .*...
 .*...
 
+<<<<<<< HEAD
 */
+=======
+*/
+>>>>>>> 84b878b625962b4bf986cdf7883aac2fd53744ac
