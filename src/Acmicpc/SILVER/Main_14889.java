@@ -1,4 +1,4 @@
-package solutions;
+package Acmicpc.SILVER;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -69,7 +69,7 @@ public class Main_14889 {
 	}
 	
 	static int calGap(int[] arr1, int[] arr2) {
-		int sum1 = 0, sum2 = 0, gap=0; // arr¿¡ ÀÖÀ¸¸é sum1, ¾øÀ¸¸é sum2
+		int sum1 = 0, sum2 = 0, gap=0; // arrï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ sum1, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ sum2
 		for(int a : arr1) {
 			for(int b : arr1) {
 				if(a==b) continue;
