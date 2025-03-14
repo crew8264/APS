@@ -1,4 +1,4 @@
-package Main;
+package Acmicpc.BRONZE;
 
 import java.io.BufferedReader;
 import java.io.IOException;
