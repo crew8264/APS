@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Main_2252_ê¹€ìš©ë¹ˆ {
+public class Main_2252_±è¿ëºó {
 	static int N, M;
 	static int[] tall;
 	static ArrayList<Node> adjList;
