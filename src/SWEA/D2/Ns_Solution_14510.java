@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Solution_14510 {
+public class Ns_Solution_14510 {
 	static int T, N, div3, div2, div1, ans;
 	static int[] tree, gap;
 	public static void main(String[] args) throws IOException {
@@ -40,8 +40,8 @@ public class Solution_14510 {
 				gap[i] = max - tree[i];
 			}
 			
-			System.out.println(Arrays.toString(gap));
-			System.out.printf("div3: %d div2: %d div1: %d\n", div3, div2, div1);
+//			System.out.println(Arrays.toString(gap));
+//			System.out.printf("div3: %d div2: %d div1: %d\n", div3, div2, div1);
 			
 			
 			// step3 : /3 해본다
@@ -57,7 +57,7 @@ public class Solution_14510 {
 				gap[i] %= 1;
 				
 			}
-			System.out.println(Arrays.toString(gap));
+//			System.out.println(Arrays.toString(gap));
 			
 			// step4 : 1씩 남은건 따로
 			while(div2!=0 && div1!=0) {
@@ -77,8 +77,8 @@ public class Solution_14510 {
 			
 			ans += div3 * 2;
 			
-			System.out.printf("div3: %d div2: %d div1: %d\n", div3, div2, div1);
-			System.out.println(Arrays.toString(gap));
+//			System.out.printf("div3: %d div2: %d div1: %d\n", div3, div2, div1);
+//			System.out.println(Arrays.toString(gap));
 			System.out.println("#"+tc+" "+ans);
 		}
 		
